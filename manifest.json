@@ -1,0 +1,17 @@
+{
+    "description": "Remove double click help popup from T24 webserver.",
+    "manifest_version": 2,
+    "name": "T24 Webserver But Better",
+    "version": "1.0",
+    "content_scripts": [
+      {
+        "matches": [
+            "*://*/BrowserWeb/servlet*"
+        ],
+        "js": [
+            "main.js"
+        ]
+      }
+    ]
+  
+  }
